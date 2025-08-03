@@ -82,7 +82,7 @@ color: #f0f0f0;
         line.className = "line";
         container.appendChild(line);
 
-        const words = [`I`, `love`, `you`, `Adiii`, `${i}%`, `${heart}`];
+        const words = [`I`, `love`, `you`, `Azhar`, `${i}%`, `${heart}`];
         let wordIndex = 0;
 
         function showNextWord() {
@@ -108,7 +108,7 @@ color: #f0f0f0;
     }
 
     async function loopLines() {
-      for (let i = 1; i <= 1000; i++) {
+      for (let i = 1; i <= 4000; i++) {
         await showLineWords(i);
       }
       // After all lines are done, show the final message
@@ -120,5 +120,6 @@ color: #f0f0f0;
   </div>
 </body>
 </html>
+
 
 
